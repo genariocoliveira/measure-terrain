@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Measure terrain</title>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h1>Calcular terreno</h1>
+            <fieldset>
+                <div class="form">
+                    <label >Largura</label> 
+                    <input type="number" class="are1" id="area1" placeholder="Informe o lagura">
+                    <label >Comprimento</label>
+                    <input type="number" class="are2" id="area2" placeholder="Informe o comprimento">
+                    <button onclick="calc()" class="btn-cal">Calcular</button>
+                    <button onclick="limpar()" class="btn-limp">Limpar</button>
+                    <p class="resultado"></p>
+                </div>
+            </fieldset>
+        </div>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
